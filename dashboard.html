@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>dashboard</title>
+    <style>
+      body { font: 16px/1.5 system-ui, sans-serif; margin: 40px; }
+      .row { display: flex; gap: 12px; align-items: center; width: 360px; margin: 8px 0; padding: 10px 14px; border-radius: 8px; background: #fde2e2; color: #8a1c1c; }
+      .row .ok { display: none; }
+    </style>
+  </head>
+  <body>
+    <h1>dashboard.html</h1>
+    <p>Imports <code>shared.js</code> and <code>feature.js</code>, so both stylesheets should load.</p>
+    <div class="row shared"><code>shared.css</code><span class="missing">missing</span><span class="ok">loaded</span></div>
+    <div class="row feature"><code>feature.css</code><span class="missing">missing</span><span class="ok">loaded</span></div>
+    <p><a href="/index.html">Open index.html</a></p>
+    <script type="module" src="/src/dashboard.js"></script>
+  </body>
+</html>

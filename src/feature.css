@@ -1,0 +1,3 @@
+.row.feature { background: #dcf5dc; color: #1c5e1c; }
+.row.feature .missing { display: none; }
+.row.feature .ok { display: inline; }

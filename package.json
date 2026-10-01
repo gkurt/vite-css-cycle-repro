@@ -1,0 +1,12 @@
+{
+  "name": "vite-css-cycle-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "check": "node check.mjs",
+    "preview": "vite preview",
+    "start": "vite build && vite preview"
+  },
+  "devDependencies": { "vite": "8.3.1" }
+}
